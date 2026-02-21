@@ -11,10 +11,10 @@ function convertTo12Hour(time24) {
 }
 
 
-const city = "Dhaka";
+const city1 = "Dhaka";
 const country = "Bangladesh";
 
-const url = `https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&method=1`;
+const url = `https://api.aladhan.com/v1/timingsByCity?city=${city1}&country=${country}&method=1`;
 fetch(url)
     .then(res => res.json())
     .then(data => {
