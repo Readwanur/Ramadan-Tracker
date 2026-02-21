@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramadan Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="tracker.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <img src="mosque.png" alt="" />
+        <p class="aref-ruqaa-regular">Ramadan Tracker</p>
+      </div>
+
+      <div id="schedule">
+        <div class="schedule_box">
+          <p>DATE: <span id="date"></span></p>
+        </div>
+        <div class="schedule_box">
+          <p>DAY: <span id="day"></span></p>
+        </div>
+        <div class="schedule_box">
+          <p>SUHOOR: <span id="sehri"></span></p>
+        </div>
+        <div class="schedule_box">
+          <p>IFTAR: <span id="iftar"></span></p>
+        </div>
+      </div>
+
+      <div id="body_part">
+        <div class="tasks">
+          <div class="task_header">
+            <h3>SALAH</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+        <div class="tasks">
+          <div class="task_header">
+            <h3>DHIKR</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+        <div class="tasks">
+          <div class="task_header">
+            <h3>DUA OF THE DAY</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+        <div class="tasks">
+          <div class="task_header">
+            <h3>TODAY'S GOALS</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+        <div class="tasks">
+          <div class="task_header">
+            <h3>MEAL PLAN</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+        <div class="tasks">
+          <div class="task_header">
+            <h3>RECITATION TRACKER</h3>
+          </div>
+          <div class="task_body"></div>
+        </div>
+      </div>
+    </div>
+    <script src="tracker.js"></script>
+  </body>
+</html>
