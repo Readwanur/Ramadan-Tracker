@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/tracker.css" />
+    <link rel="stylesheet" href="tracker.css" />
   </head>
   <body>
     <div id="main">
@@ -35,7 +35,20 @@
         </div>
       </div>
 
-      <div id="body_part">
+      <div class="body_part1">
+        <div class="tasks2">
+          <div class="task_header">
+            <h3>DUA OF THE DAY</h3>
+          </div>
+          <div class="task_body">
+            <p id="arabic" style="color: rgb(255, 193, 36)"></p>
+            <p>Translation: <span id="translation"></span></p>
+            <p id="reference"></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="body">
         <div class="tasks">
           <div class="task_header">
             <h3>SALAH</h3>
@@ -88,12 +101,6 @@
         </div>
         <div class="tasks">
           <div class="task_header">
-            <h3>DUA OF THE DAY</h3>
-          </div>
-          <div class="task_body"></div>
-        </div>
-        <div class="tasks">
-          <div class="task_header">
             <h3>TODAY'S GOALS</h3>
           </div>
           <div class="task_body"></div>
@@ -111,6 +118,10 @@
           <div class="task_body"></div>
         </div>
       </div>
+      <small style="color: white; text-align: center">
+        Translation fallback is machine-generated if authentic translation is
+        unavailable.
+      </small>
     </div>
     <script src="tracker.js"></script>
   </body>

@@ -15,7 +15,6 @@ body {
   width: 100%;
   padding: 0px 50px;
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   gap: 30px;
 }
@@ -23,11 +22,9 @@ body {
   height: 190px;
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
-  /* background-color:blue; */
 }
 #header img {
   height: 100%;
@@ -39,17 +36,23 @@ body {
   font-size: xx-large;
   color: white;
 }
-#body_part {
-  height: 550px;
+#body {
+  height: 950px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(58, 0, 58);
-  border: 5px, solid,grey;
+  background-color: rgb(58, 0, 5);
   border-radius: 50px;
-  box-shadow: 15px 15px 40px black;
-  padding: 0px 50px;
+  padding: 10px 10px;
+  gap: 15px;
+}
+.body_part1 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tasks {
   height: 400px;
@@ -60,35 +63,38 @@ body {
   flex-direction: column;
   gap: 5px;
 }
-.task_header{
+.tasks2 {
+  height: 100%;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.task_header {
   height: 60px;
   width: 100%;
   color: white;
-  border: 5px, solid, grey;
   border-radius: 50px;
-  box-shadow: 0px 5px 20px black;
+  box-shadow: 0px 25px 20px purple;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.task_body{
+.task_body {
   height: 340px;
   width: 100%;
-  border: 5px, solid, grey;
   border-radius: 30px;
-  box-shadow: 0px 5px 20px black;
+  box-shadow: 0px 5px 20px purple;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20px;
+  padding: 0px 20px;
   gap: 20px;
 }
 #schedule {
   height: 95px;
   width: 100%;
-  /* background-color: red; */
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   color: white;
   font-weight: bold;
@@ -100,23 +106,21 @@ body {
 #iftar {
   color: rgb(255, 79, 79);
 }
-#date{
+#date {
   color: pink;
 }
-#day{
+#day {
   color: cadetblue;
 }
-.schedule_box{
-  height: 100px;
-  width: 300px;
-  border: 5px, solid, grey;
-  border-radius: 50px;
+.schedule_box {
+  height: 60px;
+  width: 250px;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 40px black;
 }
-.salah{
+.salah {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -124,7 +128,7 @@ body {
   color: white;
   cursor: pointer;
 }
-.salah input{
+.salah input {
   height: 18px;
   width: 18px;
   cursor: pointer;
@@ -139,4 +143,8 @@ body {
   color: white;
   opacity: 0.7;
   transition: 0.3s;
+}
+.task_body p {
+  color: white;
+  font-size: 18px;
 }
